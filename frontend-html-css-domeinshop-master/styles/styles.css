@@ -1,0 +1,173 @@
+
+
+/* (grijs #899CA0 en donkergroen #1C2B32 border-radius: 50px 50px 50px 50px;) */
+
+@import url('https://www.google.com/search?q=google+fonts+poppins&rlz=1C5CHFA_enNL1072NL1074&oq=google+fonts+&aqs=chrome.0.69i59j69i64j69i57j0i512l4j69i60.4158j0j9&sourceid=chrome&ie=UTF-8');
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+
+
+
+
+
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+
+/* ik weet niet zo goed hoe je die 2 buttons samenvoegt tot 1 geheel
+en hoe de button ook echt werkt
+en hoe ik het iets dichter bij de titel zet
+ */
+
+
+.hero-input{
+    padding: 25px 35px;
+    color: azure;
+    background-color: transparent;
+    border: 2px solid; color: #1C2B32;
+    margin: 0;
+    font-size: 30px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.hero-input:hover::placeholder{
+    color: azure;
+}
+
+.hero-content {
+    margin: 0 auto;
+    text-align: center;
+max-width: 1000px;
+    padding: 150px 0 400px 0 ;
+
+
+ }
+
+
+.hero-title {
+    padding: 10px 0 10px 0;
+
+
+}
+
+header {
+ background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 120px;
+}
+
+main {
+    padding: 100px 100px 100px 100px;
+}
+
+.fat{
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+.quotebox{
+    display: inline-block;
+    border: 0;
+    padding: 90px 90px 90px 90px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px grey;
+    box-sizing: content-box;
+    width: 1000px;
+height: 300px;
+}
+
+h4 {
+    padding-bottom: 50px;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+
+
+/*///////////// 3.3 Support /////////////*/
+.image{
+    display: flex;
+padding: 30px 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color:#1C2B32;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 30px;
+}
+
+.subtile{
+
+}
+
+
+/*///////////// 3.4 Faq /////////////*/
+
+details {
+    border: 0;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+details[open] {
+    padding: 0.5em;
+}
+
+details:hover {
+    background-color: grey;
+}
+
+footer {
+    color: azure;
+    background-color: #1C2B32;
+    text-align: center;
+}
+
+
+/*///////////// 3.5 Footer /////////////*/
